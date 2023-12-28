@@ -1,0 +1,135 @@
+Relational :
+-------------
+Check/Compare relation between two operands.
+Result will be either True or False
+
+ <  - Less Than
+ <= - Less Than or Equal To
+ >  - Greater Than
+ >= - Greater Than or Equal To
+ == - Equal To
+ != - Not Equal To
+
+
+Logical :
+----------
+Combining two or more statements.
+Result Will be either True or False
+
+ && - And (True If All statements are True)
+ || - Or  (True if one of the statements are True)
+ !  - Not (Reverse result)
+
+
+Assignment :
+-------------
+Used to assign values to variables
+
+ =  - Simple Assignment
+ += - Addition Assignment
+ -= - Subtraction Assignment
+ *= - Multiplication Assignment
+ /= - Division Assignment
+ %= - Remainder Assignment
+
+
+Unary :
+--------
+Operations with single operand.
+
+Increment(++)
+Decrement(--)
+
+
+Ternary :
+----------
+It is a Conditional operator.
+Execute statements based on conditions
+
+Condition ? statement(If True) : Statement(If False)
+
+<-------------------------------------+--------------------------------->
+
+User Input :
+-------------
+Console.Readline() - Get User input from console
+
+<-------------------------------------+--------------------------------->
+
+IF Statements :
+-----------------
+
+It is conditional statement.
+it executes a statement depending on wheteher an expression is True or False
+  
+             
+        1. Simple if Statement
+        ----------------------
+        Execute a block of code only given condition is true.
+
+        2. If Else Statement
+        --------------------
+        Execute a block of code if condition is True.
+        Also Execute another block of code if condition is False.
+
+        3. If Else If Statement
+        -----------------------
+        It is a chain of if statements.
+
+        4. Nested If statement
+        ----------------------
+        An if statement inside another if statement.
+
+
+<-------------------------------------+--------------------------------->
+
+Loops :
+--------
+Execute a block of code repeatedly as long as te given condition is True.
+        
+        1. For Loop
+        2. While Loop
+        3. Do While Loop
+
+
+<-------------------------------------+--------------------------------->
+
+Switch Statement :
+--------------------
+Alternate to if else statement.
+Given value tested against the list of values.
+Each value is called case.
+If it matches, execute the code inside the case.
+If found no mathes, execute code inside default case.
+
+<-------------------------------------+--------------------------------->
+
+Functions :
+------------
+A function is a block of organized code that is used to perform a single task.
+     
+     Simple Function
+     Function With parameters
+     Function With Return Type
+
+
+
+Syntax :
+---------
+<return type> <name of the function>(< function parameters>)
+{
+  <function code>
+return;
+}
+
+<-------------------------------------+--------------------------------->
+
+Arrays :
+---------
+Array is the collection of similar types of data.
+We can store more than one values to a single variable.
+
+Syntax :
+---------
+
+data_type[] arrays_name = {values};
